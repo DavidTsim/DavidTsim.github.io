@@ -1,0 +1,20 @@
+body{
+	font-family: Arial, Arial Black, Verdana;
+	background-color: black;
+}
+h2{
+	text-align:center;
+	color: pink;
+}
+h4{
+	text-align:left;
+	color: HotPink;
+}
+
+#Member{
+	border: 1px solid pink;
+	margin: 10px;
+	padding: 15px;
+	box-shadow: 15px 15px 15px #888888;
+	display: inline-block;
+}

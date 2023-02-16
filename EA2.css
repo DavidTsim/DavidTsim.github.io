@@ -1,0 +1,139 @@
+body{
+	font-family: Arial, Arial Black, Verdana;
+	background-color: black;
+}
+
+h1{
+	color: HotPink;
+	text-align:center;
+	font-size: 40pt;
+}
+h2{
+	color: HotPink;
+	background-color: Pink;
+	text-align:center;
+}
+h3{
+	color: yellow;
+	font-size: 20;
+}
+h4{
+	text-align:center;
+	color: HotPink;
+}
+h5{
+	color: Yellow;
+	font-size: 30;
+	text-align:center;
+}
+h6{
+	color:black;
+	font-size: 20;
+	text-align:left;
+}
+	
+
+strong{
+	color: HotPink;
+	font-size: 40;
+}
+
+#Member{
+	border: 1px solid yellow;
+	margin: 10px;
+	padding: 15px;
+	box-shadow: 15px 15px 15px #888888;
+	display: inline-block;
+}
+
+#header2{
+	border: 20px solid Gold;
+	margin: 10px;
+	padding: 30px;
+	box-shadow: 25px 25px 25px #888888;
+	background-color: black;
+}
+
+
+#format {
+	border: 10px solid Pink;
+	margin: 10px;
+	padding: 30px;
+	box-shadow: 25px 25px 25px #888888;
+	color: DeepPink;
+}
+/* media query, apply following CSS code only when width is <= 900px */
+
+@media only screen and (max-width: 900px){
+	body{
+		background-color: #AFEEEE;
+	}
+	#header{
+		order: 1;
+	}
+	
+	#header2{
+		order: 0;
+		border: 20px solid Black;
+		background-color: Gold;
+	}
+	#nav {
+		width: 100%;
+	
+    -webkit-column-span: all; 
+		flex-grow: 2; 
+	}
+  
+	#nav img {
+		display: none;
+    /*margin: 0px;
+	opacity: 0.0;
+	flex-grow: 1; */
+	}
+	#bigimage {
+		display: none;
+	}
+	#Member{
+		display: block;
+	}
+
+}
+
+/* media query, apply following CSS code only when width is <= 600px */
+
+@media only screen and (max-width: 600px) {
+	body{
+		background-color: Maroon;
+	}
+	
+	#header {
+	/*display: none; */
+	}
+  
+	#header img {
+	  /*margin: 0px;
+	opacity: 0.1;
+	flex-grow: 1; */
+		display: none;
+	  
+	}
+  
+	#nav img {
+  
+		display: none;
+	/*opacity: 1.0;
+	flex-grow: 1; */
+	}
+
+	#Member {
+	/*display: none; */
+	}
+  
+	#Member img {
+	  /*margin: 0px;
+	opacity: 0.1;
+	flex-grow: 1; */
+	  
+	}
+	
+}
